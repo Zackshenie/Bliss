@@ -1,0 +1,214 @@
+
+
+1. Home Page (index.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Massage Spa - Relax and Rejuvenate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Bliss Massage Spa</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Experience Professional Massage Therapy</h2>
+    <p>Relieve stress and rejuvenate your body at Bliss Massage Spa.</p>
+    <a href="services.html" class="btn">View Services</a>
+</section>
+
+<section class="services-preview">
+    <h2>Our Services</h2>
+    <div class="service">
+        <h3>Deep Tissue Massage</h3>
+        <p>Relieve muscle tension and improve mobility.</p>
+    </div>
+    <div class="service">
+        <h3>Swedish Massage</h3>
+        <p>Gentle relaxation to promote blood circulation.</p>
+    </div>
+    <a href="services.html" class="btn">Learn More</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Bliss Massage Spa - All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+
+2. Services Page (services.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Services - Bliss Massage Spa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Our Services</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="services">
+    <div class="service">
+        <h3>Deep Tissue Massage</h3>
+        <p>Relieve muscle tension and improve mobility.</p>
+        <p><strong>Price: $70 per hour</strong></p>
+    </div>
+    <div class="service">
+        <h3>Swedish Massage</h3>
+        <p>Gentle relaxation to promote blood circulation.</p>
+        <p><strong>Price: $60 per hour</strong></p>
+    </div>
+    <div class="service">
+        <h3>Reflexology</h3>
+        <p>Focus on specific pressure points to improve overall health.</p>
+        <p><strong>Price: $50 per session</strong></p>
+    </div>
+</section>
+
+</body>
+</html>
+
+3. About Us Page (about.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Bliss Massage Spa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>About Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <p>Welcome to Bliss Massage Spa. Under new ownership, we have renovated our facilities and enhanced our services to provide you with a beautiful environment, skilled techniques, and enthusiastic service. Both walk-ins and appointments are welcome, but appointments are always better. Thank you!</p>
+</section>
+
+</body>
+</html>
+
+4. Contact Page (contact.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Bliss Massage Spa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Fayetteville Spa</h2>
+    <p>Phone: (910) 527-3002</p>
+    <p>Email: blissmassagebooking@gmail.com</p>
+    <p>Address: 125 N Reilly Rd #101, Fayetteville, NC 28303</p>
+
+    <h2>Lillington Spa</h2>
+    <p>Phone: (910) 551-7676</p>
+    <p>Address: 34 E Front St #1, Lillington, NC 27546</p>
+</section>
+
+</body>
+</html>
+
+5. Stylesheet (styles.css)
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/spa.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e67e 
