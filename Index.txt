@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bliss Massage Spa - Relax and Rejuvenate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Bliss Massage Spa</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Experience Professional Massage Therapy</h2>
+    <p>Relieve stress and rejuvenate your body at Bliss Massage Spa.</p>
+    <a href="services.html" class="btn">View Services</a>
+</section>
+
+<section class="services-preview">
+    <h2>Our Services</h2>
+    <div class="service">
+        <h3>Deep Tissue Massage</h3>
+        <p>Relieve muscle tension and improve mobility.</p>
+    </div>
+    <div class="service">
+        <h3>Swedish Massage</h3>
+        <p>Gentle relaxation to promote blood circulation.</p>
+    </div>
+    <a href="services.html" class="btn">Learn More</a>
+</section>
+
+<footer>
+    <p>&copy; 2025 Bliss Massage Spa - All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
